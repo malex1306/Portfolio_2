@@ -7,7 +7,7 @@ export default function DragConstraints() {
 
     return (
         <div ref={constraintsRef} className="w-full h-full relative flex items-center justify-center overflow-hidden">
-            <h1 className="absolute top-0 left-0 text-2xl font-bold text-gray-900 mb-4">
+            <h1 className="absolute top-0 left-0 text-2xl font-bold text-[#240046] mb-4">
                 TechStack
             </h1>
 

@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import DragConstraints from "./Techstack.jsx";
 import BubbleText from "./BubbleText.jsx";
+import SpeechAnimation from "./speechAnimation.jsx";
 
 export default function BentoGrind() {
     return (
@@ -12,7 +13,7 @@ export default function BentoGrind() {
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
-                    whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(168,85,247,0.8)" }}
+                    whileHover={{ scale: 1.02, boxShadow: "0 0 20px rgba(168,85,247,0.8)" }}
                 >
                     <motion.div
                         className="text-center text-3xl font-semibold text-white"
@@ -20,7 +21,7 @@ export default function BentoGrind() {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 2, ease: "easeOut" }}
                     >
-                        Marcel Alexandre
+
                     </motion.div>
                     <motion.div
                         className="text-center text-xl font-light text-white mt-2"
@@ -28,22 +29,24 @@ export default function BentoGrind() {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 2, ease: "easeOut" }}
                     >
-                        Frontend/Creative Developer
+
                     </motion.div>
                 </motion.div>
 
 
                 <motion.div
-                    className="col-span-1 sm:col-span-3 row-span-3 sm:col-start-1 sm:row-start-2 bg-white/20 backdrop-blur-lg rounded-xl p-4 border-2 border-purple-500 shadow-[0_0_10px_rgba(168,85,247,0.8)]"
+                    className="col-span-1 sm:col-span-3 row-span-3 sm:col-start-1 sm:row-start-2 bg-white/20  rounded-xl p-4 border-2 border-purple-500 shadow-[0_0_10px_rgba(168,85,247,0.8)]"
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
-                    whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(168,85,247,0.8)" }}
+                    whileHover={{ scale: 1.02, boxShadow: "0 0 20px rgba(168,85,247,0.8)" }}
                 >
-                    <div className="w-full h-full flex items-center justify-center">
+                    <div className="w-full h-full flex items-center justify-center ">
                         <BubbleText />
                     </div>
-
+                    <div style={{ transform: 'translateY(-60px)' }}>
+                        <SpeechAnimation />
+                    </div>
                 </motion.div>
 
 
@@ -52,7 +55,7 @@ export default function BentoGrind() {
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
-                    whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(168,85,247,0.8)" }}
+                    whileHover={{ scale: 1.02, boxShadow: "0 0 20px rgba(168,85,247,0.8)" }}
                 >
                     <div className="text-center text-white">Box 2</div>
                 </motion.div>
@@ -63,7 +66,7 @@ export default function BentoGrind() {
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
-                    whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(168,85,247,0.8)" }}
+                    whileHover={{ scale: 1.02, boxShadow: "0 0 20px rgba(168,85,247,0.8)" }}
                 >
                     <div className="w-full h-full flex items-center justify-center">
                         <DragConstraints />
@@ -76,7 +79,7 @@ export default function BentoGrind() {
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
-                    whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(168,85,247,0.8)" }}
+                    whileHover={{ scale: 1.02, boxShadow: "0 0 20px rgba(168,85,247,0.8)" }}
                 >
                     <div className="text-center text-white">Box 4</div>
                 </motion.div>
@@ -87,7 +90,7 @@ export default function BentoGrind() {
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
-                    whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(168,85,247,0.8)" }}
+                    whileHover={{ scale: 1.02, boxShadow: "0 0 20px rgba(168,85,247,0.8)" }}
                 >
                     <div className="text-center text-white">Box 5</div>
                 </motion.div>
@@ -98,7 +101,7 @@ export default function BentoGrind() {
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
-                    whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(168,85,247,0.8)" }}
+                    whileHover={{ scale: 1.02, boxShadow: "0 0 20px rgba(168,85,247,0.8)" }}
                 >
                     <div className="text-center text-white">Box 6</div>
                 </motion.div>
