@@ -2,14 +2,15 @@ import { motion } from "framer-motion";
 
 export default function BubbleText() {
     const lines = [
-        "As they say, find your ",
-        "passion and make it ",
-        "your job. ",
-        "Well, I found it!"
+        "AS THEY SAY, FIND YOUR ",
+        "PASSION AND MAKE IT ",
+        "YOUR JOB. ",
+        "WELL, I FOUND IT!"
     ];
 
     return (
-        <h2 className="text-left text-2xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-4xl font-bold text-[#240046] leading-snug">
+        <h2 className="text-left text-2xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-4xl font-bold text-[#240046] leading-snug"
+            style={{ fontFamily: 'Anton SC, sans-serif' }}>
             {lines.map((line, lineIdx) => (
                 <div key={lineIdx} className="inline-block">
                     {line.split(/(\s)/).map((char, charIdx) => (

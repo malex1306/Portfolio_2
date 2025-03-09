@@ -60,9 +60,9 @@ export default function SpeechAnimation() {
     return (
         <div className="w-full h-auto flex flex-col items-center space-y-2 px-2 sm:px-4">
             <SpeechBubble text="Philosophy?" isVisible={isVisible1} delay={0} colorClass="bg-black" positionClass="self-start sm:self-start" />
-            <SpeechBubble text="Sports educator?" isVisible={isVisible2} delay={0} colorClass="bg-blue-600" positionClass="self-end sm:self-end" />
+            <SpeechBubble text="Sports educator?" isVisible={isVisible2} delay={0} colorClass="bg-black" positionClass="self-end sm:self-end" />
             <SpeechBubble text="Biologist?" isVisible={isVisible3} delay={0} colorClass="bg-black" positionClass="self-start sm:self-start" />
-            <SpeechBubble text="Ah! I know, developer!❤️" isVisible={isVisible4} delay={0} colorClass="bg-blue-600" positionClass="self-end sm:self-end" />
+            <SpeechBubble text="Ah! I know, developer!❤️" isVisible={isVisible4} delay={0} colorClass="bg-black" positionClass="self-end sm:self-end" />
         </div>
     );
 }
