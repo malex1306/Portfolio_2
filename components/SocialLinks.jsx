@@ -3,7 +3,7 @@ import { Github, Linkedin, Briefcase } from "lucide-react";
 
 const socialLinks = [
     { id: 1, name: "GitHub", url: "https://github.com/malex1306", icon: <Github className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" /> },
-    { id: 2, name: "LinkedIn", url: "www.linkedin.com/in/marcel-alexandre-67165131a", icon: <Linkedin className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" /> },
+    { id: 2, name: "LinkedIn", url: "https://www.linkedin.com/in/marcel-alexandre-67165131a", icon: <Linkedin className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" /> },
     { id: 3, name: "Xing", url: "https://www.xing.com/profile/Marcel_Alexandre061965", icon: <Briefcase className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" /> },
 ];
 
