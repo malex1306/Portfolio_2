@@ -2,6 +2,9 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import BentoGrind from "../components/BentoGrind.jsx";
+import { inject } from '@vercel/analytics';
+
+inject();
 
 
 const fontLink = document.createElement('link');
