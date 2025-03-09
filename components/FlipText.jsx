@@ -6,19 +6,19 @@ const FlipText = () => {
     const texts = ['Developer', 'Frontend Developer', 'Creative Developer', 'Web Developer'];
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    // Der Wechsel der Wörter in einer Endlosschleife
+
     useEffect(() => {
         const interval = setInterval(() => {
-            setCurrentIndex((prevIndex) => (prevIndex + 1) % texts.length); // Nach dem letzten Wort beginnt es wieder bei 0
-        }, 3000); // Alle 3 Sekunden das Wort wechseln
+            setCurrentIndex((prevIndex) => (prevIndex + 1) % texts.length);
+        }, 3000);
 
-        return () => clearInterval(interval); // Aufräumen, wenn die Komponente nicht mehr da ist
+        return () => clearInterval(interval);
     }, []);
 
     return (
         <div className="relative">
             <motion.div
-                key={currentIndex} // key stellt sicher, dass der Zustand neu gerendert wird, wenn der Index sich ändert
+                key={currentIndex}
                 className="absolute inset-0"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{

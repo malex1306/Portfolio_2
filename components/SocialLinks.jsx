@@ -21,7 +21,7 @@ export default function SocialLinks() {
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-3 rounded-full bg-[#240046] text-white hover:text-blue-400 transition-all"
+                    className=" p-3 rounded-full bg-[#240046] text-white hover:text-blue-400 transition-all"
                     whileHover={{ y: -5, scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
                 >

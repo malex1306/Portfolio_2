@@ -3,15 +3,6 @@
 /* src/tailwind.css */
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
 
-
-@media (max-width: 640px) {
-    . {
-        /* Hier kannst du das Layout für mobile Geräte anpassen */
-        flex-wrap: wrap; /* Erlaubt das Umwickeln von Boxen */
-        justify-content: center; /* Zentriert die Boxen */
-    }
-}
-
 .anton-sc-regular {
     font-family: "Anton", sans-serif;
     font-weight: 400;

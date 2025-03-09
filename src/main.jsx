@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-//import App from './App.jsx'
 import BentoGrind from "../components/BentoGrind.jsx";
-//import ContactMe from "../components/Contact.jsx";
+
+
 const fontLink = document.createElement('link');
 fontLink.rel = 'stylesheet';
 fontLink.href = 'https://fonts.googleapis.com/css2?family=Anton+SC&display=swap';
