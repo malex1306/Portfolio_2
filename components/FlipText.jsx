@@ -28,8 +28,8 @@ const FlipText = () => {
                 }}
                 exit={{ opacity: 0, y: -20, transition: { duration: 0.8, ease: 'easeIn' } }}
             >
-                <h1 className="mt-3 text-center font-semibold text-[#240046]
-                    text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl"
+                <h1 className="mt-3 text-center justify-center font-semibold text-[#240046]
+                    text-7xl sm:text-6xl md:text-5xl lg:text-5xl xl:text-6xl"
                     style={{ fontFamily: 'Anton SC, sans-serif' }}>
                     {texts[currentIndex]}
                 </h1>

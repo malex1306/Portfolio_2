@@ -9,10 +9,10 @@ export default function DragConstraints() {
 
     return (
         <div ref={constraintsRef} className="w-full h-full relative flex items-center justify-center overflow-hidden">
-            <div className="absolute top-0 left-60 space-x-2">
-                <p style={{ fontFamily: 'Zain, sans-serif' }}>Drag me</p>
+            <div className="absolute top-0 right-0 flex items-center space-x-2  ">
+                <p style={{ fontFamily: 'Zain, sans-serif', fontSize:20, color:"#240046" }}>DRAG ME</p>
                 <motion.span
-                    className="text-2xl"
+                    className="text-2xl text-[#240046]"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5 }}

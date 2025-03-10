@@ -9,7 +9,7 @@ export default function BubbleText() {
     ];
 
     return (
-        <h2 className="text-left text-2xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-4xl font-bold text-[#240046] leading-snug"
+        <h2 className="text-left text-5xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl font-bold text-[#240046] leading-snug"
             style={{ fontFamily: 'Anton SC, sans-serif' }}>
             {lines.map((line, lineIdx) => (
                 <div key={lineIdx} className="inline-block">
@@ -20,7 +20,7 @@ export default function BubbleText() {
                             <motion.span
                                 key={`${lineIdx}-${charIdx}`}
                                 className="inline-block"
-                                whileHover={{ fontWeight: 700, color: "rgb(238, 242, 255)" }}
+                                whileHover={{ fontWeight: 700, color: "rgb(236, 72, 153)" }}
                                 transition={{ duration: 0.3 }}
                             >
                                 {char}
