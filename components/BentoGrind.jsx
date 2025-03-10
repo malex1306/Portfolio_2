@@ -18,7 +18,7 @@ export default function BentoGrind() {
     return (
         <div className="w-screen flex items-center justify-center p-4 relative overflow-hidden">
             <img
-                src="../src/assets/Background.jpg"  // Ersetze hier den Pfad mit deinem Bild
+                src="../src/assets/Background.jpg"
                 alt="Background"
                 className="absolute top-0 left-0 w-full h-full object-cover"
             />
