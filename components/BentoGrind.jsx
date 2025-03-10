@@ -9,6 +9,7 @@ import Logo from "../src/assets/Logo.png"
 import FlipText from "./FlipText.jsx";
 import Timeline from "./TimeLine.jsx";
 import { MdArrowDownward } from 'react-icons/md';
+import background from '../src/assets/Background.jpg';
 
 
 
@@ -18,7 +19,7 @@ export default function BentoGrind() {
     return (
         <div className="w-screen flex items-center justify-center p-4 relative overflow-hidden">
             <img
-                src="/assets/Background.jpg"
+                src={background}
                 alt="Background"
                 className="absolute top-0 left-0 w-full h-full object-cover"
             />
