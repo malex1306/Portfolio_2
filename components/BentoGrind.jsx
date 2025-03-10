@@ -17,14 +17,11 @@ import { MdArrowDownward } from 'react-icons/md';
 export default function BentoGrind() {
     return (
         <div className="w-screen flex items-center justify-center p-4 relative overflow-hidden">
-            <video
-                autoPlay
-                loop
-                muted
+            <img
+                src="../src/assets/Background.jpg"  // Ersetze hier den Pfad mit deinem Bild
+                alt="Background"
                 className="absolute top-0 left-0 w-full h-full object-cover"
-            >
-                <source src="../src/assets/Background.mp4" type="video/mp4" />
-            </video>
+            />
             <div className="relative grid grid-cols-1 sm:grid-cols-7 grid-rows-8 gap-3 w-full h-full min-h-screen">
                 <motion.div
                     className="col-span-1 sm:col-span-7 bg-white/20 rounded-xl p-4 border-3 border-purple-500 backdrop-blur-lg shadow-[0_0_50px_rgba(168,85,247,0.8)]"
